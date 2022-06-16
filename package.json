@@ -1,0 +1,22 @@
+{
+  "name": "mathsass",
+  "version": "1.0.0",
+  "description": "Math sass library",
+  "main": "mathsass/math.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiforks/mathsass.git"
+  },
+  "keywords": [
+    "mathsass"
+  ],
+  "author": "ks.kifor@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiforks/mathsass/issues"
+  },
+  "homepage": "https://github.com/kiforks/mathsass#readme"
+}
