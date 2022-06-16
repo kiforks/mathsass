@@ -1,0 +1,11 @@
+// Returns the least common multiple
+// @param {Number} $a
+// @param {Number} $b
+// @example
+//     lcm(4, 6)   // 12
+//     lcm(30, 42) // 210
+@use 'sass:math';
+
+@function lcm ($a, $b) {
+	@return math.div($a * $b, gcd($a, $b));
+}
